@@ -38,7 +38,7 @@ A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar corre
 
   En el caso de las sinápisis eliminadas, el error se modifica, pero aún en grandes porcentajes de conexiones eliminadas, la red continúa con poco error:
 
-  ![Capacidad de la red de Hopfield](images/hopfield_error.png)
+  ![Error de la red de Hopfield](images/hopfield_error.png)
 
   Además, la capacidad se ve modificada de la siguiente manera:
   
@@ -53,7 +53,7 @@ A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar corre
 
   ### ¿Por qué surge el Modelo de Ising?
 
-  Este modelo surge para estudiar la interacción entre átomos con **espines** (o momentos magnéticos) que solo pueden tener dos estados posibles: **arriba (+1)** o **abajo (-1)**. Cada átomo está influenciado por sus vecinos, y el sistema busca configuraciones que minimicen la energía total del conjunto, similar a cómo las redes de Hopfield intentan converger a un estado de mínima energía.
+  Este modelo surge para estudiar la interacción entre átomos con **spines** (o momentos magnéticos) que solo pueden tener dos estados posibles: **arriba (+1)** o **abajo (-1)**. Cada átomo está influenciado por sus vecinos, y el sistema busca configuraciones que minimicen la energía total del conjunto, similar a cómo las redes de Hopfield intentan converger a un estado de mínima energía.
 
   La **energía del sistema** se calcula considerando las interacciones entre pares de espines vecinos. Si dos espines están alineados (ambos +1 o ambos -1), contribuyen a bajar la energía del sistema. Si están en direcciones opuestas, la energía del sistema aumenta.
 
@@ -82,4 +82,4 @@ La red de Hopfield es eficaz para recuperar patrones con cierto nivel de ruido o
 Este desarrollo y más puede encontrarse en el archivo [`hopfieldNetwork.ipynb`](../hopfieldNetwork.ipynb), donde con otros ejemplos prácticos también se analiza:
 - Cómo la red responde a patrones no aprendidos.
 - La influencia de la cantidad de patrones almacenados en la capacidad de la red.
-
+- Simmulated Annealing.
