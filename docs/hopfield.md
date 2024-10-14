@@ -27,7 +27,8 @@ A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar corre
   - **Combinaciones de patrones**: Una superposición de varios patrones aprendidos.
 
   <img src="../images/spurious_states.png" alt="Estados espurios de combinacion de patrones" width="50%"/>
-  **Figura 2.2**: Ejemplo de un patrón espurio generado al combinar tres patrones aprendidos.
+  
+  **Figura 2.2**: Ejemplos de un patrones espurios generados al combinar tres patrones aprendidos.
 
 </details>
 
@@ -64,6 +65,7 @@ A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar corre
   En una dimensión (1D), no hay magnetización espontánea a temperatura finita. Esto se debe a que, en el modelo 1D, las fluctuaciones térmicas son lo suficientemente fuertes como para desordenar los espines, incluso a temperaturas bajas, lo que impide que se forme una magnetización neta. Esto contrasta con sistemas en dos o más dimensiones, donde existe una transición de fase que permite una magnetización neta por debajo de la temperatura crítica.
 
   <img src="../images/magnetization_ising.png" alt="Gráfico de magnetización" width="50%"/>
+  
   **Figura 3.1**: Magnetización en función de la temperatura en el Modelo de Ising.
 
   ### Importancia del modelo
