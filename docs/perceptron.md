@@ -1,4 +1,4 @@
-# 1. Perceptrón simple y multicapa 
+# Perceptrón simple y multicapa 
 
 El Perceptrón es uno de los primeros modelos de redes neuronales y el punto de partida para entender conceptos básicos del aprendizaje supervisado. 
 
