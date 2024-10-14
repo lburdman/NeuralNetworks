@@ -9,11 +9,11 @@ El funcionamiento de una red de Hopfield se basa en la energía de los estados d
 En este experimento, se entrenó una red de Hopfield con imágenes binarias y luego se evaluó su capacidad para recordar dichas imágenes cuando se presentaban versiones alteradas. La alteración de las imágenes se realizó de varias maneras:
 
 1. **Ruido**: Se invirtieron los valores de píxeles aleatorios en un porcentaje del 30%.
-   <img src="images/hopfield_noise.png" alt="Recuperación de una imagen con ruido" width="50%"/>
+   <img src="../images/hopfield_noise.png" alt="Recuperación de una imagen con ruido" width="50%"/>
 3. **Borrado de elementos**: Se pusieron en blanco (1) píxeles aleatorios, también con un porcentaje del 30%.
-   <img src="images/hopfield_erase.png" alt="Recuperación de una imagen con ruido" width="50%"/>
+   <img src="../images/hopfield_erase.png" alt="Recuperación de una imagen con ruido" width="50%"/>
 5. **Agregado de elementos**: Se añadieron elementos oscuros (-1) en las imágenes, con un porcentaje del 40%.
-   <img src="images/hopfield_add.png" alt="Recuperación de una imagen con ruido" width="50%"/>
+   <img src="../images/hopfield_add.png" alt="Recuperación de una imagen con ruido" width="50%"/>
 
 A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar correctamente los patrones en la mayoría de los casos**.
 
@@ -26,7 +26,7 @@ A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar corre
   - **Patrones inversos**: El patrón original con los signos de todos los elementos invertidos.
   - **Combinaciones de patrones**: Una superposición de varios patrones aprendidos.
 
-  ![Estados Espurios](images/spurious_states.png)
+  <img src="../images/spurious_states.png" alt="Estados espurios de combinacion de patrones" width="50%"/>
   **Figura 2.2**: Ejemplo de un patrón espurio generado al combinar tres patrones aprendidos.
 
 </details>
@@ -38,11 +38,11 @@ A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar corre
 
   En el caso de las sinápisis eliminadas, el error se modifica, pero aún en grandes porcentajes de conexiones eliminadas, la red continúa con poco error:
 
-  ![Error de la red de Hopfield](images/hopfield_error.png)
+  <img src="../images/hopfield_error.png" alt="Error de la red de Hopfield" width="50%"/>
 
   Además, la capacidad se ve modificada de la siguiente manera:
   
-  ![Capacidad de la red de Hopfield](images/hopfield_capacity.png)
+  <img src="../images/hopfield_capacity.png" alt="Capacidad de la red de Hopfield" width="50%"/>
 
 </details>
 
@@ -63,7 +63,7 @@ A pesar de estas alteraciones, la red de Hopfield fue capaz de **recuperar corre
 
   En una dimensión (1D), no hay magnetización espontánea a temperatura finita. Esto se debe a que, en el modelo 1D, las fluctuaciones térmicas son lo suficientemente fuertes como para desordenar los espines, incluso a temperaturas bajas, lo que impide que se forme una magnetización neta. Esto contrasta con sistemas en dos o más dimensiones, donde existe una transición de fase que permite una magnetización neta por debajo de la temperatura crítica.
 
-  ![Gráfico de magnetización](images/magnetization_ising.png)
+  <img src="../images/magnetization_ising.png" alt="Gráfico de magnetización" width="50%"/>
   **Figura 3.1**: Magnetización en función de la temperatura en el Modelo de Ising.
 
   ### Importancia del modelo
