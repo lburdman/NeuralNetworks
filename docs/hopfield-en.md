@@ -9,10 +9,15 @@ The functioning of a Hopfield network is based on the energy of the system's sta
 In this experiment, a Hopfield network was trained with binary images, and then its ability to recall these images when altered versions were presented was evaluated. The images were altered in several ways:
 
 1. **Noise**: Random pixel values were inverted by 30%.
+   
    <img src="../images/hopfield_noise.png" alt="Image recovery with noise" width="50%"/>
+   
 2. **Element removal**: Random pixels were set to white (1), also by 30%.
+   
    <img src="../images/hopfield_erase.png" alt="Image recovery with noise" width="50%"/>
+   
 3. **Element addition**: Dark elements (-1) were added to the images by 40%.
+   
    <img src="../images/hopfield_add.png" alt="Image recovery with noise" width="50%"/>
 
 Despite these alterations, the Hopfield network was able to **correctly recover the patterns in most cases**.
