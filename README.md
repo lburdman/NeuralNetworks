@@ -2,26 +2,9 @@
 ## **Descripción General**
 Este repositorio contiene el código fuente de varios tipos de redes neuronales, implementadas como parte de mi curso en Ingeniería Electrónica en la Universidad de Buenos Aires. Estos modelos cubren desde el perceptrón simple hasta redes neuronales complejas como las redes de Hopfield y redes de Kohonen, ofreciendo ejemplos prácticos y resultados de experimentos que buscan ilustrar cómo funcionan estas redes y cuál es su aplicación en el aprendizaje automático.
 
-[Perceptron simple y multicapa](docs/perceptron.md)
+- [Perceptron simple y multicapa](docs/perceptron.md)
+- [Perceptron simple y multicapa](docs/hopfield.md)
 
-## 2. Redes de Hopfield
-
-Las Redes de Hopfield se destacan por su capacidad para actuar como una memoria asociativa, un concepto que puede entenderse como una "memoria de contenido direccionable".
-
-
-
-Características Principales
-Aprendizaje de Patrones: Se entrenó una red de Hopfield para almacenar patrones binarios y recuperarlos incluso cuando están incompletos o con ruido.
-
-(Figura 3: Recuperación de un patrón almacenado con ruido aplicado)
-
-Estados Espurios: Durante los experimentos, se observó la presencia de estados espurios. Estos son estados no deseados que la red puede alcanzar, y son el resultado de la combinación no lineal de los patrones aprendidos. Estos estados afectan la capacidad de la red para converger siempre a los patrones deseados, especialmente si la información de entrada es incompleta o ruidosa.
-
-Capacidad de la Red: Se evaluó la capacidad de la red para almacenar múltiples patrones y cómo esta capacidad cambia cuando se eliminan sinapsis al azar.
-
-Archivos relevantes:
-
-hopfieldNetwork.ipynb — Implementación de la red de Hopfield, incluyendo ejemplos de recuperación de patrones distorsionados y análisis de estados espurios.
 Redes de Kohonen
 Las Redes de Kohonen, también conocidas como Mapas Autoorganizados (SOM), se utilizan para la reducción de dimensionalidad y la visualización de datos.
 
